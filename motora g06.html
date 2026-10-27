@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết iPhone 15 Plus</title>
+    <link rel="stylesheet" href="chi_tiet_phone-style.css">
+    <link rel="stylesheet" href="chi_tiet_phone-style-res.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link JavaScript Bootstrap (Bắt buộc phải có để slide tự chạy và bấm chuyển được) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="Javasc_FLD/Auth.js" defer></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm  align-items-center maunen">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center me-3" href="#">
+                <img src="./img/smartphone.png" alt="Logo" class="img-fluid" style="max-height: 30px; width: auto;">
+                <p class="brand-name">BCPhone</p>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId"
+                aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mt-2 mt-lg-0 menuframe">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html" aria-current="page">Phone <span
+                                class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="news.html">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <div class="marbutton">
+                    <div class="nav-button">
+                        <a id="nav-button-signup" href="sign_up.html">
+                            <button>
+                                <img src="./img/add-user.png" alt="user" /> Sign up
+                            </button></a>
+                    </div>
+                    <div class="nav-button">
+                        <a id="nav-button-signin" href="sign_in.html">
+                            <button>
+                                <img src="./img/user.png" alt="user" /> Sign in
+                            </button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CONTAINER CHÍNH CỦA TRANG CHI TIẾT -->
+    <div class="detail-container">
+
+        <!-- PHẦN 1: TỔNG QUAN (ẢNH VÀ THÔNG TIN MUA HÀNG) -->
+        <div class="product-overview">
+            <!-- Khung chứa Slide ảnh Bootstrap (Vẫn giữ class product-image-box để lấy viền đen và chống méo từ CSS của bạn) -->
+            <div class="product-image-box carousel slide" id="phoneCarousel" data-bs-ride="carousel">
+
+                <!-- Cụm các dấu chấm/vạch nhỏ dưới đáy slide -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#phoneCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true"></button>
+                    <button type="button" data-bs-target="#phoneCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#phoneCarousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#phoneCarousel" data-bs-slide-to="3"></button>
+                </div>
+
+                <!-- Danh sách các hình ảnh điện thoại -->
+                <div class="carousel-inner h-100 w-100 d-flex align-items-center">
+                    <!-- Ảnh 1 (Bắt buộc phải có class 'active' cho ảnh đầu tiên) -->
+                    <div class="carousel-item active h-100">
+                        <img src="./img/motorola-g06-power-4gb-128gb-nau-thumb-1-2-600x600.jpg"
+                            class="d-block w-100 h-100" alt="Mặt trước Realme 16T">
+                    </div>
+                    <!-- Ảnh 2 -->
+                    <div class="carousel-item h-100">
+                        <img src="./img/motorola-g06-power-4gb-128gb-nau-thumb-1-2-600x600.jpg"
+                            class="d-block w-100 h-100" alt="Mặt sau Realme 16T">
+                    </div>
+                    <!-- Ảnh 3 -->
+                    <div class="carousel-item h-100">
+                        <img src="./img/motorola-g06-power-4gb-128gb-nau-thumb-1-2-600x600.jpg"
+                            class="d-block w-100 h-100" alt="Cạnh bên Realme 16T">
+                    </div>
+                    <!-- Ảnh 4 -->
+                    <div class="carousel-item h-100">
+                        <img src="./img/motorola-g06-power-4gb-128gb-nau-thumb-1-2-600x600.jpg"
+                            class="d-block w-100 h-100" alt="Cạnh bên Realme 16T">
+                    </div>
+                </div>
+
+                <!-- Hai nút mũi tên điều hướng qua lại (Trái / Phải) -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#phoneCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true" style="filter: invert(1);"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#phoneCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true" style="filter: invert(1);"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <!-- Khung chứa thông tin tên, giá, nút bấm -->
+            <div class="product-info-box">
+                <h1 class="product-name">Motorola g06</h1>
+                <p class="product-price"></p>1.990.000 đ</p>
+                <p class="product-desc">
+                    g06 sở hữu màn hình oled lớn 6.7 inch
+                    cùng
+                    camera chính 48MP cho bức ảnh siêu sắc nét. Cổng kết nối USB-C tiện lợi cùng thời lượng pin ấn
+                    tượng
+                    suốt cả ngày dài.
+                </p>
+
+                <div class="action-buttons">
+                    <button class="btn-buy-now">Mua ngay</button>
+                    <button class="btn-add-cart">Thêm vào giỏ</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- PHẦN 2: BẢNG THÔNG SỐ KỸ THUẬT -->
+        <div class="specs-section">
+            <h2 class="specs-title">Thông số kỹ thuật</h2>
+
+            <table class="specs-table">
+                <tr>
+                    <td class="spec-label">Màn hình</td>
+                    <td class="spec-value">6.7 inch, OLED</td>
+                </tr>
+                <tr>
+                    <td class="spec-label">Hệ điều hành</td>
+                    <td class="spec-value">Android 16 (hoặc cao hơn)</td>
+                </tr>
+                <tr>
+                    <td class="spec-label">Camera sau</td>
+                    <td class="spec-value">Chính 48 MP & Phụ 12 MP</td>
+                </tr>
+                <tr>
+                    <td class="spec-label">Camera trước</td>
+                    <td class="spec-value">12 MP</td>
+                </tr>
+                <tr>
+                    <td class="spec-label">Chip xử lý (CPU)</td>
+                    <td class="spec-value">g81</td>
+                </tr>
+                <tr>
+                    <td class="spec-label">Dung lượng lưu trữ</td>
+                    <td class="spec-value">128 GB</td>
+                </tr>
+                <tr>
+                    <td class="spec-label">Cổng kết nối</td>
+                    <td class="spec-value">Type-C</td>
+                </tr>
+                <tr>
+                    <td class="spec-label">Dung lượng pin</td>
+                    <td class="spec-value">40 giờ</td>
+                </tr>
+                <tr>
+                    <td class="spec-label">Mạng và kết nối</td>
+                    <td class="spec-value">Hỗ trợ 5G, WiFi 6</td>
+                </tr>
+                <tr>
+                    <td class="spec-label">Chất liệu</td>
+                    <td class="spec-value">Khung nhôm nguyên khối, Mặt lưng nhựa</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+</body>
+<footer>
+    <h3>Hỗ trợ</h3>
+    <div class="footer_img">
+        <p>Thông tin liên hệ: 0913178258</p>
+        <p>Tư vấn và bảo hành: 0918447477</p>
+        <p>Mạng xã hội: <a href="https://www.youtube.com/@ChinhNguyenPiano"><img src="./img/social.png" alt="you"></a><a
+                href=""><img src="./img/facebook.png" alt="face"></a></p>
+    </div>
+    <p class="footer-brand">©2026, Công ty trách nhiệm hữu hạn BCphone</p>
+</footer>
+
+</html>

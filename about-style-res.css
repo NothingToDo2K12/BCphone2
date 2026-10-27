@@ -1,0 +1,75 @@
+/* ============================================================
+   RESPONSIVE FOR ABOUT PAGE
+   ============================================================ */
+
+@media screen and (max-width: 768px) {
+    .navbar-collapse {
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .navbar-nav {
+        width: 100%;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 8px 0;
+        font-size: 18px;
+    }
+
+    .navbar-expand-sm .navbar-nav.menuframe {
+        gap: 4px;
+    }
+
+    .marbutton {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+        margin: 12px 0 0 0;
+        width: 100%;
+    }
+
+    #nav-button-signup, #nav-button-signin {
+        width: 100%;
+    }
+
+    .marbutton .nav-button,
+    .marbutton a,
+    .marbutton button {
+        width: 100%;
+    }
+
+    .marbutton button {
+        justify-content: center;
+    }
+
+
+    .about-page {
+        padding: 20px 14px 40px;
+    }
+
+    .about-hero {
+        gap: 14px;
+    }
+
+    .about-hero-content,
+    .about-hero-card,
+    .about-simple,
+    .feedback-box {
+        width: 100%;
+        padding: 18px;
+    }
+
+    .about-hero-content h1 {
+        font-size: 24px;
+    }
+
+    .feedback-box button {
+        width: 100%;
+    }
+
+    footer {
+        padding: 30px 20px;
+        gap: 10px;
+    }
+}

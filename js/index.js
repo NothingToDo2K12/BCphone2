@@ -1,0 +1,149 @@
+const phoneList =
+    [
+        {
+            id: 1,
+            name: "Iphone 15 plus",
+            storage: "512 GB",
+            color: "blue",
+            screen_resolution: "6.7 inch, Super Retina XDR, OLED",
+            os: "Ios 27 (or higher)",
+            connected_port: "Type-C",
+            cpu: "A16 bionic",
+            battery_capacity: "37 hours",
+            main_camera: "48 MP",
+            front_camera: "12 MP",
+            networks: "support 5G, wifi 6",
+            material: "aluminium, glass",
+            image_b64: "",
+            image_url: "./img/iphone-15-plus-512gb-xanh-thumb-600x600.jpg",
+            description: `iPhone 15 plus sở hữu màn hình Super Retina XDR lớn 6.7 inch, thiết kế Dynamic Island đột phá
+                    cùng camera chính 48MP cho bức ảnh siêu sắc nét. Cổng kết nối USB-C tiện lợi cùng thời lượng pin ấn tượng
+                    suốt cả ngày dài.`
+        },
+
+        {
+            id: 2,
+            name: "Iphone 17 pro max",
+            storage: "512 GB",
+            color: "blue",
+            screen_resolution: "6.7 inch, Super Retina XDR, OLED",
+            os: "Ios 27 (or higher)",
+            connected_port: "Type-C",
+            cpu: "A19 pro",
+            battery_capacity: "40 hours",
+            main_camera: "48 MP",
+            front_camera: "12 MP",
+            networks: "support 5G, wifi 6",
+            material: "aluminium",
+            image_b64: "",
+            image_url: "./img/iphone-17-pro-max-cam-thumb-600x600.jpg",
+            description: `iPhone 17 pro max sở hữu màn hình Super Retina XDR lớn 6.7 inch, thiết kế Dynamic Island đột phá
+                    cùng camera chính 48MP cho bức ảnh siêu sắc nét. Cổng kết nối USB-C tiện lợi cùng thời lượng pin ấn tượng
+                    suốt cả ngày dài.`
+        
+        },
+        {
+            id: 3,
+            name: "Iphone Air",
+            storage: "512 GB",
+            color: "blue",
+            screen_resolution: "6.7 inch, Super Retina XDR, OLED",
+            os: "Ios 27 (or higher)",
+            connected_port: "Type-C",
+            cpu: "A19 pro",
+            battery_capacity: "40 hours",
+            main_camera: "48 MP",
+            front_camera: "12 MP",
+            networks: "support 5G, wifi 6",
+            material: "aluminium, glass",
+            image_b64: "",
+            image_url: "./img/iphone-air-vang-thumb-600x600.jpg",
+            description: `iPhone air sở hữu màn hình Super Retina XDR lớn 6.7 inch, thiết kế Dynamic Island đột phá
+                    cùng camera chính 48MP cho bức ảnh siêu sắc nét. Cổng kết nối USB-C tiện lợi cùng thời lượng pin ấn tượng
+                    suốt cả ngày dài.`
+        },
+
+        {
+            id: 4,
+            name: "Iphone 15 plus",
+            storage: "512 GB",
+            color: "blue",
+            screen_resolution: "6.7 inch, Super Retina XDR, OLED",
+            os: "Ios 27 (or higher)",
+            connected_port: "Type-C",
+            cpu: "A16 bionic",
+            battery_capacity: "37 hours",
+            main_camera: "48 MP",
+            front_camera: "12 MP",
+            networks: "support 5G, wifi 6",
+            material: "aluminium, glass",
+            image_b64: "",
+            image_url: "./img/iphone-15-plus-512gb-xanh-thumb-600x600.jpg",
+            description: `iPhone 15 p sở hữu màn hình Super Retina XDR lớn 6.7 inch, thiết kế Dynamic Island đột phá
+                    cùng camera chính 48MP cho bức ảnh siêu sắc nét. Cổng kết nối USB-C tiện lợi cùng thời lượng pin ấn tượng
+                    suốt cả ngày dài.`
+        },
+
+        {
+            id: 5,
+            name: "Iphone 17 pro max",
+            storage: "512 GB",
+            color: "blue",
+            screen_resolution: "6.7 inch, Super Retina XDR, OLED",
+            os: "Ios 27 (or higher)",
+            connected_port: "Type-C",
+            cpu: "A19 pro",
+            battery_capacity: "40 hours",
+            main_camera: "48 MP",
+            front_camera: "12 MP",
+            networks: "support 5G, wifi 6",
+            material: "aluminium",
+            image_b64: "",
+            image_url: "./img/iphone-17-pro-max-cam-thumb-600x600.jpg",
+            description: `iPhone 15 p sở hữu màn hình Super Retina XDR lớn 6.7 inch, thiết kế Dynamic Island đột phá
+                    cùng camera chính 48MP cho bức ảnh siêu sắc nét. Cổng kết nối USB-C tiện lợi cùng thời lượng pin ấn tượng
+                    suốt cả ngày dài.`
+        },
+        {
+            id: 6,
+            name: "Iphone Air",
+            storage: "512 GB",
+            color: "blue",
+            screen_resolution: "6.7 inch, Super Retina XDR, OLED",
+            os: "Ios 27 (or higher)",
+            connected_port: "Type-C",
+            cpu: "A19 pro",
+            battery_capacity: "40 hours",
+            main_camera: "48 MP",
+            front_camera: "12 MP",
+            networks: "support 5G, wifi 6",
+            material: "aluminium, glass",
+            image_b64: "",
+            image_url: "./img/iphone-air-vang-thumb-600x600.jpg",
+            description: `iPhone air sở hữu màn hình Super Retina XDR lớn 6.7 inch, thiết kế Dynamic Island đột phá
+                    cùng camera chính 48MP cho bức ảnh siêu sắc nét. Cổng kết nối USB-C tiện lợi cùng thời lượng pin ấn tượng
+                    suốt cả ngày dài.`
+        }
+
+    ]
+
+function phoneDisplay() {
+    let displayZone = document.getElementById("productList")
+    phoneList.forEach((item) => {
+        let htmlPhone = [];
+        htmlPhone = '<div class="phone">';
+        htmlPhone = htmlPhone + "<img src=" + '"' + `${item.image_url}` + '"';
+        htmlPhone += ' alt="" />';
+        htmlPhone = htmlPhone + "<p>" + `${item.name}` + "</p>";
+        htmlPhone = htmlPhone + "<p>" + `${item.storage}` + "</p>";
+        htmlPhone += '<a href="#">';
+        htmlPhone += "<button>Detail</button></a>";
+        htmlPhone += "</div>"
+
+        displayZone.innerHTML += htmlPhone
+        
+    })
+
+}
+
+phoneDisplay();

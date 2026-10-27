@@ -1,0 +1,354 @@
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+   
+}
+
+.navbar-brand {
+    gap: 8px;
+    padding: 4px 0;
+}
+
+.navbar-brand img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.15));
+}
+
+.brand-name {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 800;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    margin: 0;
+    line-height: 1;
+    white-space: nowrap;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* --- Search input and button --- */
+
+form.d-flex .form-control,
+form.d-flex .btn {
+    border-radius: 20px;
+}
+
+form.d-flex .form-control {
+    border-right: 1px solid #dce8f0;
+}
+
+form.d-flex .btn {
+    border-left: 1.5px solid rgba(255, 255, 255, 0.3);
+}
+
+form.d-flex .btn:hover,
+form.d-flex .btn:focus,
+form.d-flex .btn:active {
+    background: linear-gradient(135deg, #0b7caa, #0056b3);
+    border-color: rgba(255, 255, 255, 0.6);
+    color: #ffffff;
+}
+
+form.d-flex .btn:active {
+    background: rgba(11, 124, 170, 0.3);
+    color: #0b7caa;
+    box-shadow: inset 0 0 0 1px rgba(11, 124, 170, 0.2), 0 2px 6px rgba(11, 124, 170, 0.3);
+}
+
+/* --- STYLISH SIGN IN & SIGN UP BUTTONS --- */
+.marbutton {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: auto;
+    flex-wrap: wrap;
+}
+
+.marbutton .nav-button {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.marbutton a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.marbutton button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    height: 38px;
+    padding: 0 18px;
+    border-radius: 20px;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    outline: none;
+    border: 1.5px solid transparent;
+}
+
+.marbutton button img {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+    transition: transform 0.25s ease;
+}
+
+/* Sign In Button Styling */
+#nav-button-signin button {
+    background: #ffffff;
+    color: #0b7caa;
+    border: 1.5px solid #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+#nav-button-signin button:hover {
+    background: #eef7fc;
+    color: #085f83;
+    border-color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+#nav-button-signin button:hover img {
+    transform: scale(1.15);
+}
+
+#nav-button-signin button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+} */
+
+/* Sign Up Button Styling */
+ #nav-button-signup button {
+    background: linear-gradient(135deg, #092c53, #0b7caa);
+    color: #ffffff;
+    border: 1.5px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 3px 10px rgba(11, 124, 170, 0.4);
+}
+
+#nav-button-signup button:hover {
+    background: linear-gradient(135deg, #0b7caa, #0056b3);
+    border-color: rgba(255, 255, 255, 0.6);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(11, 124, 170, 0.55);
+}
+
+#nav-button-signup button:hover img {
+    transform: scale(1.15) rotate(-5deg);
+}
+
+#nav-button-signup button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 6px rgba(11, 124, 170, 0.3);
+}  */
+
+
+
+.navbar-expand-sm .navbar-nav.menuframe {
+    gap: 12px;
+}
+
+.navbar-expand-sm .navbar-nav.menuframe .nav-link {
+    font-size: 20px;
+    font-family: "Noto Sans JP", sans-serif;
+    padding: 8px 35px;
+    margin: 0;
+}
+
+.maunen {
+    background-color: rgba(11, 157, 193, 0.822);
+    /* height: 100px; */
+}
+
+
+.login-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 60px 20px;
+    flex-wrap: wrap;
+}
+
+.login-image {
+    width: 300px;
+    height: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 10px 15px rgba(0,0,0,0.1));
+}
+
+.boxuser {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    width: 420px;
+    padding: 35px 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08), 0 1px 3px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e9ecef;
+}
+
+.boxinfor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.boxname {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.boxname h3 {
+    margin-top: 0;
+    margin-bottom: 24px;
+    text-align: center;
+    color: #0b7caa;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.boxname p,
+.boxname label {
+    margin: 10px 0 6px 0;
+    color: #333;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.boxname .auth-note {
+    margin-top: 2px;
+    color: #687782;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.boxname .auth-message {
+    min-height: 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.boxname .auth-message-error {
+    color: #b42318;
+}
+
+.boxname .auth-message-success {
+    color: #067647;
+}
+
+.boxname button:disabled {
+    cursor: wait;
+    opacity: 0.7;
+}
+
+.boxname input {
+    width: 100%;
+    height: 44px;
+    margin-bottom: 16px;
+    padding: 0 14px;
+    border: 1.5px solid #dce8f0;
+    border-radius: 10px;
+    font-size: 14px;
+    transition: all 0.2s ease;
+}
+
+.boxname input:focus {
+    border-color: #0b7caa;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(11, 124, 170, 0.15);
+}
+
+.boxname button {
+    height: 46px;
+    width: 100%;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #0b7caa 0%, #0056b3 100%);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-top: 12px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(11, 124, 170, 0.35);
+    transition: all 0.25s ease;
+}
+
+.boxname button:hover {
+    background: linear-gradient(135deg, #096890 0%, #004494 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(11, 124, 170, 0.45);
+}
+
+.boxname button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 6px rgba(11, 124, 170, 0.3);
+}
+
+.boxname a {
+    margin-top: 18px;
+    text-decoration: none;
+    color: #0b7caa;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    transition: color 0.2s ease;
+}
+
+.boxname a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+footer {
+    background: linear-gradient(180deg, #092c53 0%, #0b7caa 100%);
+    color: #ffffff;
+    padding: 60px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+
+footer a {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+footer .footer-brand {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-right: auto;
+}
+footer h3{
+    display: inline;
+    font-family: "Lato", sans-serif;
+}
+footer img{
+    height: 25px;
+    width: 25px;
+    object-fit: contain;
+}
+footer a{
+    margin: 5px;
+}
+
+  

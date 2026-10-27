@@ -1,0 +1,74 @@
+/* ============================================================
+   Responsive
+   ============================================================ */
+
+/* --- MOBILE / THIẾT BỊ DI ĐỘNG (Dưới 768px) --- */
+@media screen and (max-width: 768px) {
+    .navbar-collapse {
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .navbar-nav {
+        width: 100%;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 8px 0;
+        font-size: 18px;
+    }
+
+    .navbar-expand-sm .navbar-nav.menuframe {
+        gap: 4px;
+    }
+
+    .marbutton {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+        margin: 12px 0 0 0;
+        width: 100%;
+    }
+
+    #nav-button-signup, #nav-button-signin {
+        width: 100%;
+    }
+
+    .marbutton .nav-button,
+    .marbutton a,
+    .marbutton button {
+        width: 100%;
+    }
+
+    .marbutton button {
+        justify-content: center;
+    }
+
+    /* --- RESPONSIVE PRODUCT GRID --- */
+    .product {
+        margin: 20px auto;
+        padding: 0 10px;
+        gap: 15px;
+    }
+
+    .phone img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .phone p {
+        font-size: 13px;
+    }
+
+    .phone p:first-of-type {
+        font-size: 14px;
+    }
+
+    /* --- RESPONSIVE FOOTER --- */
+    footer {
+        padding: 30px 20px;
+        gap: 10px;
+    }
+
+    
+}
