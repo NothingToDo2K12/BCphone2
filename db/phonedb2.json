@@ -1,0 +1,252 @@
+{
+  "phonelist": 
+  [
+    {
+      "id": 1,
+      "name": "Iphone 15 plus",
+      "storage": "512 GB",
+      "color": "blue",
+      "screen_resolution": "6.7 inch, Super Retina XDR, OLED",
+      "os": "Ios 27 (or higher)",
+      "connected_port": "Type-C",
+      "cpu": "A16 bionic",
+      "battery_capacity": "37 hours",
+      "main_camera": "48 MP",
+      "front_camera": "12 MP",
+      "networks": "support 5G, wifi 6",
+      "material": "aluminium, glass",
+      "image_b64": "",
+      "image_url": "./img/iphone-15-plus-512gb-xanh-thumb-600x600.jpg",
+      "image_detail_url": [
+        "./img/img-detail/iphone-15-xanh-duong-1-639175422917135521-750x500.jpg",
+        "./img/img-detail/iphone-15-xanh-duong-2-639175422925744440-750x500.jpg",
+        "./img/img-detail/iphone-15-xanh-duong-3-639175422933623625-750x500.jpg",
+        "./img/img-detail/iphone-15-xanh-duong-4-639175422945502143-750x500.jpg"
+      ],
+      "description": "iPhone 15 plus sở hữu màn hình Super Retina XDR lớn 6.7 inch, thiết kế Dynamic Island đột phá cùng camera chính 48MP cho bức ảnh siêu sắc nét. Cổng kết nối USB-C tiện lợi cùng thời lượng pin ấn tượng suốt cả ngày dài."
+    },
+    {
+      "id": 2,
+      "name": "Iphone 17 pro max",
+      "storage": "512 GB",
+      "color": "blue",
+      "screen_resolution": "6.7 inch, Super Retina XDR, OLED",
+      "os": "Ios 27 (or higher)",
+      "connected_port": "Type-C",
+      "cpu": "A19 pro",
+      "battery_capacity": "40 hours",
+      "main_camera": "48 MP",
+      "front_camera": "12 MP",
+      "networks": "support 5G, wifi 6",
+      "material": "aluminium",
+      "image_b64": "",
+      "image_url": "./img/iphone-17-pro-max-cam-thumb-600x600.jpg",
+      "image_detail_url": [
+        "./img/img-detail/iphone-17-pro-max-cam-mat-truoc.jpg",
+        "./img/img-detail/iphone-17-pro-max-cam-mat-sau.jpg",
+        "./img/img-detail/iphone-17-pro-max-cam-canh-ben.jpg",
+        "./img/img-detail/iphone-17-pro-max-cam-4.jpg"
+      ],
+      "description": "iPhone 17 pro max sở hữu màn hình Super Retina XDR lớn 6.7 inch, thiết kế Dynamic Island đột phá cùng camera chính 48MP cho bức ảnh siêu sắc nét. Cổng kết nối USB-C tiện lợi cùng thời lượng pin ấn tượng suốt cả ngày dài."
+    },
+    {
+      "id": 3,
+      "name": "Iphone Air",
+      "storage": "512 GB",
+      "color": "blue",
+      "screen_resolution": "6.7 inch, Super Retina XDR, OLED",
+      "os": "Ios 27 (or higher)",
+      "connected_port": "Type-C",
+      "cpu": "A19 pro",
+      "battery_capacity": "40 hours",
+      "main_camera": "48 MP",
+      "front_camera": "12 MP",
+      "networks": "support 5G, wifi 6",
+      "material": "aluminium, glass",
+      "image_b64": "",
+      "image_url": "./img/iphone-air-vang-thumb-600x600.jpg",
+      "image_detail_url": [
+        "./img/iphone-air-512gb-den-thumb-600x600.jpg",
+        "./img/iphone-air-vang-thumb-600x600.jpg"
+      ],
+      "description": "iPhone air sở hữu màn hình Super Retina XDR lớn 6.7 inch, thiết kế Dynamic Island đột phá cùng camera chính 48MP cho bức ảnh siêu sắc nét. Cổng kết nối USB-C tiện lợi cùng thời lượng pin ấn tượng suốt cả ngày dài."
+    },
+    {
+      "id": 4,
+      "name": "Iphone 16 plus",
+      "storage": "512 GB",
+      "color": "blue",
+      "screen_resolution": "6.7 inch, Super Retina XDR, OLED",
+      "os": "Ios 27 (or higher)",
+      "connected_port": "Type-C",
+      "cpu": "A18 Bionic",
+      "battery_capacity": "37 hours",
+      "main_camera": "48 MP",
+      "front_camera": "12 MP",
+      "networks": "support 5G, wifi 6",
+      "material": "aluminium, glass",
+      "image_b64": "",
+      "image_url": "./img/iphone-16-plus-xanh-thumb-600x600.jpg",
+      "image_detail_url": [
+        "./img/img-detail/iphone-16-plus-xanh-luu-ly-0-639175354840283991-750x500.jpg",
+        "./img/img-detail/iphone-16-plus-xanh-luu-ly-1-638639097454333522-750x500.jpg",
+        "./img/img-detail/iphone-16-plus-xanh-luu-ly-2-638639097459858381-750x500.jpg",
+        "./img/img-detail/iphone-16-plus-xanh-luu-ly-3-638639097465755377-750x500.jpg"
+      ],  
+      "description": "iPhone 16 plus sở hữu màn hình Super Retina XDR lớn 6.7 inch, thiết kế Dynamic Island đột phá cùng camera chính 48MP cho bức ảnh siêu sắc nét. Cổng kết nối USB-C tiện lợi cùng thời lượng pin ấn tượng suốt cả ngày dài."
+    },
+    {
+      "id": 5,
+      "name": "Iphone 17e 256GB",
+      "storage": "256 GB",
+      "color": "blue",
+      "screen_resolution": "6.7 inch, Super Retina XDR, OLED",
+      "os": "Ios 27 (or higher)",
+      "connected_port": "Type-C",
+      "cpu": "A19 pro",
+      "battery_capacity": "40 hours",
+      "main_camera": "48 MP",
+      "front_camera": "12 MP",
+      "networks": "support 5G, wifi 6",
+      "material": "aluminium",
+      "image_b64": "",
+      "image_url": "./img/iphone-17e-256gb-hong-thumb-600x600.jpg",
+      "image_detail_url": [
+        "./img/img-detail/iphone-17e-pink-1-639174867480097712-750x500.jpg",
+        "./img/img-detail/iphone-17e-pink-2-639174867486962617-750x500.jpg",
+        "./img/img-detail/iphone-17e-pink-3-639174867496955097-750x500.jpg",
+        "./img/img-detail/iphone-17e-pink-4-639174867502394561-750x500.jpg"
+      ],
+      "description": "iPhone 17e sở hữu màn hình Super Retina XDR lớn 6.7 inch cùng camera chính 48MP cho bức ảnh siêu sắc nét. Cổng kết nối USB-C tiện lợi cùng thời lượng pin ấn tượng suốt cả ngày dài."
+    },
+    {
+      "id": 6,
+      "name": "Motorola Edge 70",
+      "storage": "128 GB",
+      "color": "blue",
+      "screen_resolution": "6.7 inch, OLED",
+      "os": "Android 16 (hoặc cao hơn)",
+      "connected_port": "Type-C",
+      "cpu": "Snapdragon 7 gen 4",
+      "battery_capacity": "40 hours",
+      "main_camera": "48 MP",
+      "front_camera": "12 MP",
+      "networks": "support 5G, wifi 6",
+      "material": "aluminium, glass",
+      "image_b64": "",
+      "image_url": "./img/362374.jpg",
+      "image_detail_url": [
+        "./img/img-detail/motorola-edge-70-xam-3-639095364260948245-750x500.jpg",
+        "./img/img-detail/motorola-edge-70-xam-2-639095364251664145-750x500.jpg",
+        "./img/img-detail/motorola-edge-70-xam-1-639095364237841189-750x500.jpg"
+      ],
+      "description": "Motorola Edge 70 sở hữu màn hình oled lớn 6.7 inch cùng camera chính 48MP cho bức ảnh siêu sắc nét. Cổng kết nối USB-C tiện lợi cùng thời lượng pin ấn tượng suốt cả ngày dài. "
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123"
+    },
+    {
+      "id": 2,
+      "username": "user1",
+      "password": "user123"
+    }
+  ],
+  "prices": [
+    {
+      "id": 1,
+      "phone_id": 1,
+      "price": "18.990.000 "
+    },
+    {
+      "id": 2,
+      "phone_id": 2,
+      "price": "26.990.000 "
+    },
+    {
+      "id": 3,
+      "phone_id": 3,
+      "price": "21.490.000"
+    },
+    {
+      "id": 4,
+      "phone_id": 4,
+      "price": "20.990.000"
+    },
+    {
+      "id": 5,
+      "phone_id": 5,
+      "price": "17.990.000"
+    },
+    {
+      "id": 6,
+      "phone_id": 6,
+      "price": "10.990.000"
+    }
+  ],
+  "quantities": [
+    {
+      "id": 1,
+      "phone_id": 1,
+      "quantity": 10
+    },
+    {
+      "id": 2,
+      "phone_id": 2,  
+      "quantity": 5
+    },
+    {
+      "id": 3,
+      "phone_id": 3,
+      "quantity": 8
+    },
+    {
+      "id": 4,
+      "phone_id": 4,
+      "quantity": 12
+    },
+    {
+      "id": 5,
+      "phone_id": 5,
+      "quantity": 7
+    },
+    {
+      "id": 6,
+      "phone_id": 6,
+      "quantity": 15
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "user_id": 2,
+      "phone_id": 1,
+      "quantity": 1,
+      "total_price": "18.990.000"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "phone_id": 3,
+      "quantity": 1,
+      "total_price": "21.490.000"
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "user_id": 2,
+      "phone_id": 2,
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "phone_id": 4,
+      "quantity": 1
+    }
+  ]
+}
