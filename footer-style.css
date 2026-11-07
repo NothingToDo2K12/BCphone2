@@ -1,0 +1,38 @@
+footer {
+    background: linear-gradient(180deg, #092c53 0%, #0b7caa 100%);
+    color: #ffffff;
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    height: 250px;
+}
+
+footer .footer-brand {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-right: auto;
+    font-size: 14px;
+}
+
+footer h3 {
+    display: inline;
+    font-family: "Lato", sans-serif;
+}
+
+footer img {
+    height: 25px;
+    width: 25px;
+    object-fit: contain;
+}
+
+footer a {
+    margin: 5px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+footer a:hover {
+    color: #ffffff;
+}

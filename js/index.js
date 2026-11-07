@@ -1,10 +1,23 @@
-function phoneDisplay(data) {
+async function phoneDisplay() {
+    const URL_BASE = "https://phonedb.chinh.site"
     const displayZone = document.getElementById("productList");
-    if (!displayZone || !Array.isArray(data)) {
+    const url = `${URL_BASE}/phonelist`;
+
+    const response = await fetch(url);
+        if (!response.ok) {
+            throw new Error(`Request failed with status ${response.status}`);
+        }
+
+        const phonedb = await response.json();
+        if (!Array.isArray(phonedb) || phonedb.length === 0 ) {
+            throw new TypeError("Invalid phone database");
+        }
+    
+    if (!displayZone || !Array.isArray(phonedb)) {
         return;
     }
 
-    displayZone.replaceChildren(...data.map((item) => {
+    displayZone.replaceChildren(...phonedb.map((item) => {
         const phone = document.createElement("div");
         phone.className = "phone";
 
@@ -30,4 +43,4 @@ function phoneDisplay(data) {
     }));
 }
 
-phoneDisplay(window.phoneList);
+phoneDisplay();
