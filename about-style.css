@@ -1,8 +1,14 @@
 body{
     width: 100%;
+    min-height: 100vh;
     padding: 0;
     margin: 0;
-   
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-container {
+    margin-top: auto;
 }
 
 .about-page {
@@ -153,4 +159,3 @@ body{
     transform: translateY(-1px);
     box-shadow: 0 8px 18px rgba(11, 124, 170, 0.22);
 }
-

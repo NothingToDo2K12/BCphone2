@@ -6,7 +6,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     gap: 10px;
-    height: 250px;
+    min-height: 280px;
+    box-sizing: border-box;
 }
 
 footer .footer-brand {
