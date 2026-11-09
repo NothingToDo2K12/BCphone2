@@ -1,0 +1,99 @@
+/* Giao diện chatbot BCPhone */
+#bc-chat-toggle {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1090;
+    width: 56px;
+    height: 56px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(11, 157, 193, 0.95); /* cùng màu với thanh menu */
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 25%);
+}
+
+#bc-chat-box {
+    position: fixed;
+    right: 20px;
+    bottom: 90px;
+    z-index: 1090;
+    width: 340px;
+    max-width: calc(100vw - 40px);
+    height: 440px;
+    max-height: calc(100vh - 120px);
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgb(0 0 0 / 20%);
+    overflow: hidden;
+}
+
+#bc-chat-box[hidden] {
+    display: none;
+}
+
+.bc-chat-header {
+    padding: 10px 14px;
+    background: rgba(11, 157, 193, 0.95);
+    color: #fff;
+    font-weight: bold;
+}
+
+#bc-chat-messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background: #f8f9fa;
+}
+
+.bc-msg {
+    max-width: 85%;
+    margin: 0 0 8px;
+    padding: 8px 12px;
+    border-radius: 12px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 14px;
+}
+
+.bc-msg.bot {
+    background: #e9ecef;
+    color: #212529;
+}
+
+.bc-msg.user {
+    margin-left: auto;
+    background: rgba(11, 157, 193, 0.95);
+    color: #fff;
+}
+
+#bc-chat-form {
+    display: flex;
+    gap: 6px;
+    padding: 8px;
+    border-top: 1px solid #dee2e6;
+}
+
+#bc-chat-input {
+    flex: 1;
+    padding: 6px 10px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+}
+
+#bc-chat-form button {
+    padding: 6px 14px;
+    border: none;
+    border-radius: 6px;
+    background: rgba(11, 157, 193, 0.95);
+    color: #fff;
+}
+
+#bc-chat-form button:disabled {
+    opacity: 0.6;
+}
