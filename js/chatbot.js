@@ -7,7 +7,7 @@ const CHAT_API_URL = location.port === "3000"
     ? "/api/chat"
     : "http://localhost:3000/api/chat";
 
-const CHAT_API_URL_DEPLOY = "https://chatbot.chinh.site";
+const CHAT_API_URL_DEPLOY = "https://chatbot.chinh.site/api/chat";
 
 // Nạp file CSS (cùng thư mục gốc với thư mục js/)
 const chatCssLink = document.createElement("link");
