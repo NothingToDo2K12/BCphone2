@@ -7,6 +7,8 @@ const CHAT_API_URL = location.port === "3000"
     ? "/api/chat"
     : "http://localhost:3000/api/chat";
 
+const CHAT_API_URL_DEPLOY = "https://chatbot.chinh.site";
+
 // Nạp file CSS (cùng thư mục gốc với thư mục js/)
 const chatCssLink = document.createElement("link");
 chatCssLink.rel = "stylesheet";
@@ -32,7 +34,7 @@ async function sendChatMessage(text) {
     const waiting = addChatMessage("Đang trả lời...", "bot");
 
     try {
-        const response = await fetch(CHAT_API_URL, {
+        const response = await fetch(CHAT_API_URL_DEPLOY, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ messages: chatHistory })
