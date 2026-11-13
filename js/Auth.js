@@ -159,6 +159,7 @@
 
     window.BCPhoneAuth = {
         initializeForm: initializeForm,
+        initializeNavigation: initializeNavigation,
         login: login,
         register: register
     };
