@@ -141,6 +141,95 @@
         "./img/img-detail/motorola-edge-70-xam-1-639095364237841189-750x500.jpg"
       ],
       "description": "Motorola Edge 70 sở hữu màn hình oled lớn 6.7 inch cùng camera chính 48MP cho bức ảnh siêu sắc nét. Cổng kết nối USB-C tiện lợi cùng thời lượng pin ấn tượng suốt cả ngày dài. "
+    },
+    {
+      "id": 7,
+      "name": "Motorola G06",
+      "storage": "128 GB",
+      "color": "grey",
+      "screen_resolution": "6.7 inch, OLED",
+      "os": "Android 16 (hoặc cao hơn)",
+      "connected_port": "Type-C",
+      "cpu": "G81",
+      "battery_capacity": "40 hours",
+      "main_camera": "48 MP",
+      "front_camera": "12 MP",
+      "networks": "Support 5G, wifi 6",
+      "material": "Aluminium, glass",
+      "image_b64": "",
+      "image_url": "./img/motorola-g06-power-4gb-128gb-nau-thumb-1-2-600x600.jpg",
+      "image_detail_url": [
+        "./img/motorola-g06-power-4gb-128gb-nau-thumb-1-2-600x600.jpg"
+      ],
+      "description": "Motorola G06 sở hữu màn hình Oled lớn 6.7 inch cùng camera chính 48MP cho bức ảnh siêu sắc nét. Cổng kết nối USB-C tiện lợi cùng thời lượng pin ấn tượng suốt cả ngày dài. "
+    },
+    {
+      "id": 8,
+      "name": "Motorola G37 128GB",
+      "storage": "128 GB",
+      "color": "pink",
+      "screen_resolution": "6.67 inch, IPS LCD",
+      "os": "Android 16 (hoặc cao hơn)",
+      "connected_port": "Type-C",
+      "cpu": "Dimensity 7400 5G 8 nhân",
+      "battery_capacity": "5200 mAh",
+      "main_camera": "50 MP",
+      "front_camera": "8 MP",
+      "networks": "Support 5G, wifi 6",
+      "material": "Aluminium, glass",
+      "image_b64": "",
+      "image_url": "./img/motorola-g37-hong-thumb-1-600x600.jpg",
+      "image_detail_url": [
+        "./img/motorola-g37-hong-thumb-1-600x600.jpg"
+      ],
+      "description": "Motorola G37 128GB sở hữu màn hình oled lớn 6.67 inch cùng camera chính 50MP cho bức ảnh siêu sắc nét. Cổng kết nối USB-C tiện lợi cùng thời lượng pin ấn tượng suốt cả ngày dài. "
+    },
+    {
+      "id": 9,
+      "name": "Motorola Razr 60 Ultra",
+      "storage": "256 GB",
+      "color": "blue",
+      "screen_resolution": "6.9 inch, OLED",
+      "os": "Android 16 (hoặc cao hơn)",
+      "connected_port": "Type-C",
+      "cpu": "Dimensity 7400X",
+      "battery_capacity": "4500 mAh",
+      "main_camera": "50 MP",
+      "front_camera": "13 MP",
+      "networks": "Support 5G, Wifi 6, NFC",
+      "material": "Kính cường lực Gorilla Glass Victus, chuẩn kháng nước/bụi IP48.",
+      "image_b64": "",
+      "image_url": "./img/motorola-razr-60-8gb-256gb-xanh-thumb-1-600x600.jpg",
+      "image_detail_url": [
+        "./img/img-detail/motorola-razr-60-xanh-1-638980443920607872-750x500.jpg",
+        "./img/img-detail/motorola-razr-60-xanh-2-638980443841974143-750x500.jpg",
+        "./img/img-detail/motorola-razr-60-xanh-3-638980443934318336-750x500.jpg",
+        "./img/img-detail/motorola-razr-60-xanh-4-638980443927095003-750x500.jpg"
+      ],
+      "description": "Motorola Razr 60 Ultra sở hữu màn hình oled lớn 6.9 inch cùng camera chính 50MP cho bức ảnh siêu sắc nét. Cổng kết nối USB-C tiện lợi cùng thời lượng pin ấn tượng suốt cả ngày dài. "
+    },
+    {
+      "id": 10,
+      "name": "Oppo Find X9S Pro",
+      "storage": "1 TB",
+      "color": "Light pink, light orange",
+      "screen_resolution": "6.32 inch, AMOLED",
+      "os": "ColorOS 16 (Android 16)",
+      "connected_port": "Type-C",
+      "cpu": "Dimensity 9500",
+      "battery_capacity": "7.025 mAh",
+      "main_camera": "50 MP",
+      "front_camera": "32 MP",
+      "networks": "Support 5G, Wifi 6",
+      "material": "aluminium, glass",
+      "image_b64": "",
+      "image_url": "./img/365402-600x600-1.jpg",
+      "image_detail_url": [
+        "./img/img-detail/oppo-find-x9s-pro-cam-didongthongminh_1778087929.jpg",
+        "./img/img-detail/oppo-find-x9s-pro-trang-didongthongminh_1778087928.jpg",
+        "./img/img-detail/oppo-find-x9s-pro-xanh-didongthongminh_1778087928.jpg"
+      ],
+      "description": "Oppo Find X9s Pro sở hữu kích thước 150.5 x 71.7 x 8.4 mm, mang lại cảm giác cầm nắm cực kỳ gọn gàng và sang trọng."
     }
   ],
   "users": [
@@ -160,7 +249,7 @@
       "id": 1,
       "phone_id": 1,
       "price": "18.990.000 "
-    },
+    }, 
     {
       "id": 2,
       "phone_id": 2,
@@ -173,7 +262,6 @@
     },
     {
       "id": 4,
-      "phone_id": 4,
       "price": "20.990.000"
     },
     {
@@ -185,6 +273,26 @@
       "id": 6,
       "phone_id": 6,
       "price": "10.990.000"
+    },
+    {
+      "id": 7,
+      "phone_id": 7,
+      "price": "3.790.000"
+    },
+    {
+      "id": 8,
+      "phone_id": 8,
+      "price": "4.580.000"
+    },
+    {
+      "id": 9,
+      "phone_id": 9,
+      "price": "17.280.000"
+    },
+    {
+      "id": 10,
+      "phone_id": 10,
+      "price": "25.990.000"
     }
   ],
   "quantities": [
@@ -195,7 +303,7 @@
     },
     {
       "id": 2,
-      "phone_id": 2,  
+      "phone_id": 2,
       "quantity": 5
     },
     {
@@ -217,6 +325,26 @@
       "id": 6,
       "phone_id": 6,
       "quantity": 15
+    },
+    {
+      "id": 7,
+      "phone_id": 7,
+      "quantity": 20
+    },
+    {
+      "id": 8,
+      "phone_id": 8,
+      "quantity": 18
+    },
+    {
+      "id": 9,
+      "phone_id": 9,
+      "quantity": 6
+    },
+    {
+      "id": 10,
+      "phone_id": 10,
+      "quantity": 4
     }
   ],
   "orders": [

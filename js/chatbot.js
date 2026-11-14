@@ -10,10 +10,10 @@ const CHAT_API_URL = location.port === "3000"
 // Deploy trên server thật
 // const CHAT_API_URL = "https://chatbot.chinh.site/api/chat";
 
-// Nạp file CSS (cùng thư mục gốc với thư mục js/)
+// Nạp file CSS (thư mục ../css)
 const chatCssLink = document.createElement("link");
 chatCssLink.rel = "stylesheet";
-chatCssLink.href = new URL("../chatbot-style.css", document.currentScript.src).href;
+chatCssLink.href = new URL("../css/chatbot-style.css", document.currentScript.src).href;
 document.head.appendChild(chatCssLink);
 
 // Lịch sử hội thoại gửi lên server (để bot nhớ ngữ cảnh)
