@@ -1,0 +1,152 @@
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+   
+}
+
+.login-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 60px 20px;
+    flex-wrap: wrap;
+}
+
+.login-image {
+    width: 300px;
+    height: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 10px 15px rgba(0,0,0,0.1));
+}
+
+.boxuser {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    width: 420px;
+    padding: 35px 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08), 0 1px 3px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e9ecef;
+}
+
+.boxinfor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.boxname {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.boxname h3 {
+    margin-top: 0;
+    margin-bottom: 24px;
+    text-align: center;
+    color: #0b7caa;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.boxname p,
+.boxname label {
+    margin: 10px 0 6px 0;
+    color: #333;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.boxname .auth-note {
+    margin-top: 2px;
+    color: #687782;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.boxname .auth-message {
+    min-height: 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.boxname .auth-message-error {
+    color: #b42318;
+}
+
+.boxname .auth-message-success {
+    color: #067647;
+}
+
+.boxname button:disabled {
+    cursor: wait;
+    opacity: 0.7;
+}
+
+.boxname input {
+    width: 100%;
+    height: 44px;
+    margin-bottom: 16px;
+    padding: 0 14px;
+    border: 1.5px solid #dce8f0;
+    border-radius: 10px;
+    font-size: 14px;
+    transition: all 0.2s ease;
+}
+
+.boxname input:focus {
+    border-color: #0b7caa;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(11, 124, 170, 0.15);
+}
+
+.boxname button {
+    height: 46px;
+    width: 100%;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #0b7caa 0%, #0056b3 100%);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-top: 12px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(11, 124, 170, 0.35);
+    transition: all 0.25s ease;
+}
+
+.boxname button:hover {
+    background: linear-gradient(135deg, #096890 0%, #004494 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(11, 124, 170, 0.45);
+}
+
+.boxname button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 6px rgba(11, 124, 170, 0.3);
+}
+
+.boxname a {
+    margin-top: 18px;
+    text-decoration: none;
+    color: #0b7caa;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    transition: color 0.2s ease;
+}
+
+.boxname a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+
+  
