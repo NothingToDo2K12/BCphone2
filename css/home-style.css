@@ -1,0 +1,129 @@
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+   
+}
+
+/* --- PRODUCT GRID --- */
+.product {
+    max-width: 1320px;
+    margin: 40px auto;
+    padding: 0 20px;
+    font-family: "Noto Sans JP", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: stretch;
+    height: auto;
+}
+
+
+
+.phone {
+    width: 220px;
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 20px 16px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+    border: 1px solid #eef2f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.phone:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+    border-color: #dce8f0;
+}
+
+.phone img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 12px;
+    transition: transform 0.3s ease;
+}
+
+.phone:hover img {
+    transform: scale(1.05);
+}
+
+.phone p {
+    margin: 2px 0;
+    font-size: 15px;
+    color: #2c3e50;
+    font-weight: 500;
+}
+
+.phone p:first-of-type {
+    font-weight: 700;
+    font-size: 16px;
+    color: #1a252f;
+    margin-top: 4px;
+}
+
+.phone p:nth-of-type(2) {
+    color: #7f8c8d;
+    font-size: 13px;
+    margin-bottom: 14px;
+}
+
+.phone a {
+    text-decoration: none;
+    margin-top: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Detail Button Style */
+.phone button,
+.product .phone button,
+.product .phone a button {
+    width: 120px;
+    height: 38px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #0b7caa 0%, #0056b3 100%);
+    color: #ffffff ;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(11, 124, 170, 0.35);
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+}
+
+.phone button:hover,
+.product .phone button:hover,
+.product .phone a button:hover {
+    background: linear-gradient(135deg, #0056b3 0%, #092c53 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0, 86, 179, 0.5);
+    color: #ffffff ;
+}
+
+.phone button:active,
+.product .phone button:active,
+.product .phone a button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 6px rgba(11, 124, 170, 0.3);
+}
+
+
+
+     
+
+
+
+
