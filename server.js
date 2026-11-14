@@ -36,7 +36,7 @@ function buildSystemPrompt() {
     return (
       `- ${p.name} | ${p.storage} | màu ${p.color} | màn hình: ${p.screen_resolution} | ` +
       `chip: ${p.cpu} | pin: ${p.battery_capacity} | camera sau ${p.main_camera}, trước ${p.front_camera} | ` +
-      `mạng: ${p.networks} | giá: ${price ? price.price.trim() + " đ" : "liên hệ"} | ` +
+      `mạng: ${p.networks} | giá:" " ${price ? price.price.trim() + " đ" : "liên hệ"} | ` +
       `còn: ${stock ? stock.quantity : "?"} máy | xem tại: http://localhost:3000/phone_detail.html?id=${p.id}`
     );
   });
