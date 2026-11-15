@@ -3,12 +3,12 @@
 // Địa chỉ API. Chạy bằng "npm start" (cổng 3000) thì dùng cùng địa chỉ,
 // còn mở bằng Live Server (cổng khác) thì trỏ về server Node ở cổng 3000.
 // Khi deploy thật, đổi thành địa chỉ server của bạn.
-const CHAT_API_URL = location.port === "3000"
-    ? "/api/chat"
-    : "http://localhost:3000/api/chat";
+//const CHAT_API_URL = location.port === "3000"
+//    ? "/api/chat"
+//    : "http://localhost:3000/api/chat";
 
 // Deploy trên server thật
-// const CHAT_API_URL = "https://chatbot.chinh.site/api/chat";
+const CHAT_API_URL = "https://chatbot.chinh.site/api/chat";
 
 // Nạp file CSS (thư mục ../css)
 const chatCssLink = document.createElement("link");
